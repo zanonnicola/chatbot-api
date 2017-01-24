@@ -1,4 +1,5 @@
 var app = require('./server/server');
+var config = require('./server/config/config');
 
-app.listen(3000);
-console.log('on port 3000');
+app.listen(config.port);
+logger.log('listening on http://localhost:' + config.port);
