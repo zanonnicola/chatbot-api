@@ -1,3 +1,5 @@
+// https://developers.facebook.com/docs/messenger-platform/send-api-reference/list-template
+
 var messages = [
   {
     "id": 1,
